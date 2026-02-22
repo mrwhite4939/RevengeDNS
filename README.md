@@ -33,7 +33,7 @@
 ---
 
 ## 🏗 System Architecture
-```
+
 Client
    ↓
 DNS Server (UDP 53 / 5353)
@@ -50,7 +50,7 @@ Resolver
 Cache
    ↓
 Sinkhole (if malicious)
-```
+
 
 ---
 
@@ -70,8 +70,8 @@ npm run build
 ```
 ---
 
-▶ Run (No Root - Development Mode)
-
+## ▶ Run (No Root - Development Mode)
+```
 DNS_PORT=5353 node dist/index.js
 
 Expected Output:
@@ -79,18 +79,18 @@ Expected Output:
 DNS Server: 127.0.0.1:5353
 Ad Sinkhole HTTP: 127.0.0.1:8080
 RevengeDNS is running.
-
+```
 
 ---
 
 ## 🧪 Test DNS
-
+```
 dig @127.0.0.1 -p 5353 google.com
 
 or
 
 nslookup google.com 127.0.0.1#5353
-
+```
 
 ---
 
