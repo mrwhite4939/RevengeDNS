@@ -33,7 +33,7 @@
 ---
 
 ## 🏗 System Architecture
-
+```
 Client
    ↓
 DNS Server (UDP 53 / 5353)
@@ -50,24 +50,24 @@ Resolver
 Cache
    ↓
 Sinkhole (if malicious)
-
+```
 
 ---
 
 ## 📦 Installation
-
+```
 git clone https://github.com/mrwhite4939/revengedns.git
 cd revengedns
 npm install
+```
 
 
 ---
 
-🛠 Build
-
+## 🛠 Build
+```
 npm run build
-
-
+```
 ---
 
 ▶ Run (No Root - Development Mode)
@@ -95,14 +95,13 @@ nslookup google.com 127.0.0.1#5353
 ---
 
 ## 🔒 Production Mode (Port 53)
-
+```
 sudo node dist/index.js
 
 or grant permission:
 
 sudo setcap 'cap_net_bind_service=+ep' $(which node)
-
-
+```
 ---
 ## 🛡 Security Modules
 
@@ -140,4 +139,4 @@ AI-based Domain Scoring
 ## 📧 Email: mrwhite4939@gmail.com
 
 
-# RevengeDNS
+
