@@ -33,7 +33,7 @@
 ---
 
 ## 🏗 System Architecture
-
+```
 Client
    ↓
 DNS Server (UDP 53 / 5353)
@@ -50,7 +50,7 @@ Resolver
 Cache
    ↓
 Sinkhole (if malicious)
-
+```
 
 ---
 
