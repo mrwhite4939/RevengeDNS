@@ -136,7 +136,7 @@ AI-based Domain Scoring
 ---
 
 
-## 📧 Email: mrwhite4939@gmail.com
+ **GMAIL✉️:** `mrwhite4939@gmail.com`
 
 
 
